@@ -1,0 +1,131 @@
+/* ------- POLICE ------- */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Clash Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #14124a;
+  color: #e5e5e5;
+}
+
+/* HEADER */
+
+/* HEADER NAV LINKS */
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 64px;
+}
+
+.header-nav {
+  width: 100%;
+  height: 100%;
+  min-width: 500px;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1%;
+}
+
+.header-links1 {
+  font-weight: 600;
+  width: 30%;
+}
+
+.header-links2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+.header-links2 li a {
+  font-weight: 100;
+}
+
+.header-links1 li a {
+  margin-left: 13%;
+}
+
+.header-links1 li a,
+.header-links2 li a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 1.6vw;
+}
+
+.header-links2 li:not(:last-child) {
+  margin-right: 13%;
+}
+
+.header-links2 li:last-child {
+  margin-right: 7%;
+}
+
+/* HEADER LINE */
+
+.nav-line {
+  display: flex;
+  flex-direction: row;
+  content: "";
+  margin-right: 6%;
+  margin-left: 4%;
+  width: 91%;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+
+/* FOOTER */
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.footer-logo img {
+  width: 80%;
+}
+
+.footer-line {
+  display: flex;
+  flex-direction: row;
+  content: "";
+  margin-right: 6%;
+  margin-left: 4%;
+  margin-top: 1%;
+  width: 91%;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  width: 30%;
+  font-weight: 200;
+  font-size: 1.3vw;
+}
