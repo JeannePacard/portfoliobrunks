@@ -1,11 +1,16 @@
 .container {
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-bottom: 7%;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .container-nav-title {
   margin-top: 8%;
+  margin-left: 20%;
   font-weight: 600;
   font-size: 3vw;
   color: white;
@@ -15,7 +20,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  margin-left: -10%;
 }
 
 .container-nav-links-top {
@@ -28,7 +32,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 2%;
+  margin-top: 3%;
 }
 
 .container-button {
@@ -63,7 +67,6 @@
   padding: 2%;
   width: 24%;
   margin-right: 8%;
-  margin-left: -10%;
   height: fit-content;
   background-image: linear-gradient(160deg, #3e1c8d, #9d3d6c);
   box-shadow: 0px 0px 20px #3e1c8d;
@@ -97,7 +100,7 @@
 }
 
 .dismoi img {
-  width: 100%;
+  width: 104%;
 }
 
 .dismoi-top {
@@ -119,8 +122,8 @@
 /* CINEPICK */
 
 .cinepick {
-  margin-left: -10%;
-  width: 41%;
+  margin-left: 1.5%;
+  width: 42%;
   border-radius: 20px;
   box-shadow: 0px 0px 20px #3e1c8d;
   opacity: 0.3;
@@ -151,7 +154,7 @@
 .spoty {
   border-radius: 20px;
   padding: 2%;
-  margin-left: -35%;
+  margin-left: -20%;
   width: 25%;
   height: fit-content;
   background-image: linear-gradient(160deg, #3e1c8d, #55a3ce);
