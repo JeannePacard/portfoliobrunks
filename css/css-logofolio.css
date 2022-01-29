@@ -470,6 +470,7 @@
   font-size: 1.1vw;
   font-weight: 200;
   line-height: 1.2;
+  margin-right: 19%;
 }
 
 .maniere-img p span {
@@ -610,7 +611,7 @@
 .actu-right p {
   margin-top: 1%;
   margin-left: -20%;
-  font-size: 1.9rem;
+  font-size: 3vw;
   font-weight: 200;
 }
 
